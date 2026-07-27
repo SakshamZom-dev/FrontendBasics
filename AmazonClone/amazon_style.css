@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    border: 1px solid transparent;
+}
+.nav-logo:hover{
+    border: 1px solid white;
+}
+.logo{
+    background-image: url("shop-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.address1{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 20px;
+}
+.address2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
