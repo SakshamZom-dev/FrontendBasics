@@ -205,3 +205,66 @@ span{
 #box-img8{
     background-image: url(box8_image.jpg);
 }
+
+
+/* footer */
+.foot-panel1{
+    margin-top: 15px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 p {
+    margin-top: 20px;
+    font-weight: 700;
+}
+ul a {
+    margin-top: 10px;
+    display: block;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #3a4553;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("shop-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    height: 80px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+    font-size: 0.85rem;
+}
+.pages a{
+    margin-left: 10px;
+}
+.copyright{
+    font-size: 0.7rem;
+    margin-top: 7.5px;
+}
