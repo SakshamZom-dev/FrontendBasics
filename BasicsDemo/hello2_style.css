@@ -1,0 +1,71 @@
+/* header{
+    background-color: pink;
+}
+h1{
+    color: red;
+}
+p{
+    color: blueviolet;
+}
+body{
+    background-color: black;
+}
+button{
+    color: wheat;
+    background-color: gray;
+} */
+
+header{
+    background-color: #fcf7f8;
+}
+h1{
+    color: #a31621;
+}
+body{
+    background-color: #ced3dc;
+}
+button{
+    color: wheat;
+    background-color: gray;
+}
+#Head1{
+    color: yellowgreen;
+    text-decoration: overline;
+}
+#Head2{
+    color: #305160;
+    text-decoration: line-through;
+}
+#Head3{
+    color: brown;
+    background-color: rgb(6, 255, 6);
+    text-decoration: underline;
+}
+.Class1{
+    color: #a31621;
+}
+
+#Para1{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: green dashed underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Para2{
+    text-align: right;
+    font-family: fantasy;
+}
+#HeadNew{
+    color: #474747;
+    text-align: center;
+    text-decoration: #112230 wavy underline;
+    font-family: cursive;
+}
+#Parah1{
+    font-size: 10px;
+    text-align: center;
+}
+#Parah2{
+    font-size: 25px;
+    text-align: center;
+}
