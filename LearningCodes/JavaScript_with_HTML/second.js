@@ -86,3 +86,57 @@ console.log(str9.charAt(2));
 
 // let username = ("@"+ name + nameLength);
 // console.log(username);
+
+// // ...........................................
+
+let arr = [0, 1, 2, "gamma", 78];
+console.log(arr);
+
+arr[2] = 19;            // Mutable
+console.log(arr);
+
+arr1 = [12,23,34,44,5,87];      // for loop
+for (let i = 0; i < arr1.length; i++) {
+    console.log(arr1[i]);    
+}
+
+for (let i of arr1) {           // for-of loop 
+    console.log(i);
+}
+
+
+let arr2 = [10, 20, 30, 40, 50];
+
+arr2.push(60);
+console.log(arr2);
+
+console.log(arr2.pop(arr2));
+console.log(arr2);
+
+
+console.log(arr2.toString());
+
+console.log(arr1.concat(arr2));
+
+// // ...........................................
+
+let arr3 = [100, 200, 300, 400];
+console.log(arr3); // [100, 200, 300, 400]
+
+arr3.unshift(12); 
+console.log(arr3); // Array is updated at start
+
+arr3.shift(); 
+console.log(arr3); // Element removed from start
+
+// // ...........................................
+
+let arr4 = [10, 20, 30, 40, 50];
+console.log(arr4.slice(2,5));
+
+
+let arr5 = [10, 20, 30, 40, 50];
+let deletedElements = arr5.splice(2, 2, 100, 200);
+
+console.log("Deleted items:", deletedElements);
+console.log("Updated original array:", arr5);
