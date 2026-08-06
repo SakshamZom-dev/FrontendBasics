@@ -105,3 +105,17 @@ const outputArri = arri.reduce((res, curr) => {
     return res > curr ? res : curr;
 });
 console.log("Largest number here in", arri, "is:", outputArri);
+
+// // ...........................................
+
+
+// // DOM basics
+
+console.log(window);                            // Browser's object - Represents an open window in browser
+
+console.log("hello sir");                       // Normal and is a shorter way
+window.console.log("hello again")               // Still the same response and is the orignal way
+
+console.log(document.body);                     // Accesses the <body> element node in the DOM tree
+
+console.dir(document.body.childNodes[1]);       // Accesses the first child node
