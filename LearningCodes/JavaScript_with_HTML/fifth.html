@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifth</title>
+    <link rel="stylesheet" href="fifth.css">       <!-- placed in the head -->
+</head>
+<body>
+    <h1>Hello Everyone!</h1>
+    <div id="divA1">
+        <h3 class="h3a">Task 1: To learn about Event (inline using html)</h3>
+        <p>This is the new project which is basically focusing on the basics of JS, especially event management</p>
+        
+        <button id="button1" onclick="console.log('The button was clicked'); alert('Single time, hey mate!')">One click button</button>                     <!-- inline event handling in html, single button click -->
+        
+        <button id="button2" ondblclick="console.log('The button was clicked 2 times'); alert('Hey mate 2 times')">Two Click button</button>                <!-- inline event handling in html, double button click -->
+
+        <p class="para" id="para1">This is a para 1 in para class</p>
+    
+    </div>
+    
+    <div id="div1">
+        <h3 class="h3b">Fruits</h3>
+        <ul>
+            <li>Mango</li>
+            <li>Apple</li>
+            <li>Litchi</li>
+        </ul>
+        <p class="para" id="para2">This is para 2 in para class, under div2</p>
+    </div>
+
+
+    <div id="divA2">
+        <h3 class="h3a">Task 2: To learn about Event (using js)</h3>
+        <p>This is the new project which is basically focusing on the basics of JS, especially event management</p>
+        
+        <button id="button3">One click button</button>
+        <button id="button4">Two Click button</button>
+
+        <p class="para" id="para3">This is a para 3 in para class</p>
+    
+    </div>
+    
+    <div id="divA3">
+        <h3 class="h3a">Task 2: To learn about Event (using js again)</h3>
+        <p>This is the new project which is basically focusing on the basics of JS, especially event management</p>
+        
+        <button id="button5">Button 5</button>
+        <button id="button6">Button 6</button>
+
+        <p class="para" id="para3">This is a para 3 in para class</p>
+    
+    </div>
+    
+    <div id="divA4">
+        <h3 class="h3a">Task 2: To learn about Event (using js again)</h3>
+        <p>This is the new project which is basically focusing on the basics of JS, especially event management</p>
+        
+        <button id="button7">Button 7</button>
+        <button id="button8">Button 8</button>
+
+        <p class="para" id="para3">This is a para 3 in para class</p>
+    
+    </div>
+
+
+    <div id="divDemo1" onmouseover="console.log('You are inside the divDemo1 - handling mouseover')">        <!-- inline event handling in html, mouseover -->
+        <h3 class="h3b">Fruits2 (inline)</h3>
+        <ul>
+            <li>Mango</li>
+            <li>Apple</li>
+            <li>Litchi</li>
+        </ul>
+    </div>
+    
+    <div id="divDemo2">                             <!-- event handling in js, mouseover -->
+        <h3 class="h3b">Fruits3 (By JS)</h3>
+        <ul>
+            <li>Mango</li>
+            <li>Apple</li>
+            <li>Litchi</li>
+        </ul>
+    </div>
+    
+    <script src="fifth.js"></script>               <!-- placed at the bottom of body-->
+</body>
+</html>

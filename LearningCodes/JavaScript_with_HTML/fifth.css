@@ -1,0 +1,42 @@
+h1{
+    background-color: beige;
+    color: black;
+}
+h3{
+    background-color: black;
+    color: whitesmoke;
+}
+.h3a{
+    background-color: brown;
+}
+
+#button1{
+    background-color: rgb(1, 86, 119);
+    color: aliceblue;
+}
+#button2{
+    background-color: rgb(1, 119, 11);
+    color: aliceblue;
+}
+#button3{
+    background-color: rgb(119, 1, 119);
+    color: aliceblue;
+}
+#button4{
+    background-color: rgb(119, 1, 74);
+    color: aliceblue;
+}
+
+div{
+    background-color: aquamarine;
+}
+#divDemo1{
+    background-color: dodgerblue;
+    height: 150px;
+    width: 100%;
+}
+#divDemo2{
+    background-color: rgb(179, 203, 228);
+    height: 150px;
+    width: 100%;
+}
