@@ -10,6 +10,8 @@ h3{
     background-color: brown;
 }
 
+/* -------------------------------------------------- */
+
 #button1{
     background-color: rgb(1, 86, 119);
     color: aliceblue;
@@ -27,6 +29,8 @@ h3{
     color: aliceblue;
 }
 
+/* -------------------------------------------------- */
+
 div{
     background-color: aquamarine;
 }
@@ -39,4 +43,38 @@ div{
     background-color: rgb(179, 203, 228);
     height: 150px;
     width: 100%;
+}
+
+/* -------------------------------------------------- */
+
+.divBgColor{
+    text-align: center;
+}
+#modeBtn{
+    height: 50px;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#modeBtn:hover{
+    border-color: whitesmoke;
+}
+
+#modeBtn2{
+    height: 50px;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#modeBtn2:hover{
+    border-color: whitesmoke;
+}
+
+/* -------------------------------------------------- */
+
+.dark{
+    background-color: brown;
+    color: grey;
+}
+.light{
+    background-color: skyblue;
+    color: black;
 }

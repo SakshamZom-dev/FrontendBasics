@@ -82,3 +82,46 @@ const handler_4 = () => {
 button8.addEventListener("click", handler_4);
 
 button8.removeEventListener("click", handler_3);        // event listener removal
+
+
+// // ...........................................
+
+// let modeBtn = document.querySelector("#modeBtn");       // light/dark mode toggle button
+
+// let currMode = "light"
+
+// modeBtn.addEventListener("click", () => {
+
+//     if (currMode == "light") {
+//         currMode = "dark";
+//         document.querySelector("body").style.backgroundColor = "#000038";
+//         document.querySelector("body").style.color = "grey";
+//     }
+//     else{
+//         currMode = "light";
+//         document.querySelector("body").style.backgroundColor = "azure";
+//         document.querySelector("body").style.color = "#000038";
+//     }
+//     console.log(currMode);
+// });
+
+// // ...........................................
+
+let body = document.querySelector("body");
+
+let currentMode = "light"                               // light/dark mode toggle button using css class
+
+modeBtn2.addEventListener("click", () => {
+
+    if (currentMode == "light") {
+        currentMode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    }
+    else{
+        currentMode = "light";
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
+    console.log(currentMode);
+});
