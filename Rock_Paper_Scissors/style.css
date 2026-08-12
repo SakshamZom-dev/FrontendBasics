@@ -1,0 +1,106 @@
+/* Basic layout */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    background-color: navajowhite;
+    color: black;
+}
+
+
+/* Nav Bar */
+
+.navbar {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+/* Main Content */
+
+#sps-choices{
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.choice{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 50%;
+    background-color: maroon;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#score-board{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+#user-score, #comp-score{
+    font-size: 3.5rem;
+}
+p{
+    text-align: center;
+}
+
+.divider {
+    width: 2px;
+    height: 120px;
+    background-color: maroon;
+    border-radius: 1px;
+}
+
+#div2{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+#msg{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 40%;
+    font-size: 1.5rem;
+    align-items: center;
+    background-color: maroon;
+    color: navajowhite;
+}
+#msg:hover{
+    opacity: 80%;
+}
