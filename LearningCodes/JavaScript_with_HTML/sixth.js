@@ -124,3 +124,20 @@ myCar.start();  // (Inherited)
 myCar.honk();   // (Car-specific)
 myCar.stop1();  // Handbrake engaged (Overriding)(child class)
 myCar.stop2();  // Output: Vehicle stopped completely (Inherited)(super class)
+
+// // .................................................
+
+// error handling
+let a = 10;
+let b = 5;
+
+console.log("a - b = ", a - b);
+console.log("a + b = ", a + b);
+
+try {
+    console.log("a + c = ", a + c);   
+} catch (error) {
+    console.log(error);
+}
+
+console.log("a + b = ", a + b);
